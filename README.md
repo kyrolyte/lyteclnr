@@ -17,7 +17,7 @@ Files whose names already match the cleaned format are left untouched. The tool 
 
 ## Installation
 
-Install the binary system-wide to `/usr/local/bin`:
+As root, install the binary system-wide to `/usr/local/bin`:
 
 ```bash
 ./install.sh
@@ -27,7 +27,7 @@ This will build the Go source and place the compiled binary in `/usr/local/bin/f
 
 ## Uninstallation
 
-Remove the installed binary:
+As root, remove the installed binary:
 
 ```bash
 ./uninstall.sh
