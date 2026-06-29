@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BINARY_NAME="fn-cleaner"
+BINARY_NAME="lclnr"
 INSTALL_PATH="/usr/local/bin/${BINARY_NAME}"
 
 echo "Building ${BINARY_NAME}..."

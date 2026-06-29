@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BINARY_NAME="fn-cleaner"
+BINARY_NAME="lclnr"
 INSTALL_PATH="/usr/local/bin/${BINARY_NAME}"
 
 echo "Removing ${INSTALL_PATH}..."
