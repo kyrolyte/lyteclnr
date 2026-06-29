@@ -1,10 +1,10 @@
-# fn-cleaner
+# lyteclnr
 
 A simple Go executable that renames files in a specified directory by converting their names to lowercase and replacing spaces with dashes.
 
 ## How It Works
 
-`fn-cleaner` scans every file in the given directory (skipping subdirectories) and applies two transformations:
+`lclnr` scans every file in the given directory (skipping subdirectories) and applies two transformations:
 
 1. **Lowercase** — all characters in the filename are converted to lowercase.
 2. **Space → Dash** — all space characters are replaced with dashes (`-`).
@@ -23,7 +23,7 @@ As root, install the binary system-wide to `/usr/local/bin`:
 ./install.sh
 ```
 
-This will build the Go source and place the compiled binary in `/usr/local/bin/fn-cleaner`.
+This will build the Go source and place the compiled binary in `/usr/local/bin/lclnr`.
 
 ## Uninstallation
 
@@ -35,20 +35,20 @@ As root, remove the installed binary:
 
 ## Usage
 
-Run `fn-cleaner` followed by the path to the directory you want to clean:
+Run `lclnr` followed by the path to the directory you want to clean:
 
 ```bash
-fn-cleaner /path/to/directory
+lclnr /path/to/directory
 ```
 
 ### Examples
 
 ```bash
 # Clean files in the current directory
-fn-cleaner .
+lclnr .
 
 # Clean files in a specific folder
-fn-cleaner ~/Downloads
+lclnr ~/Downloads
 ```
 
 ### Output
